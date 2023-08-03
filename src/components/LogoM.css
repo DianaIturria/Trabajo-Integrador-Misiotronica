@@ -1,0 +1,49 @@
+.navbar-logo {
+    width: 90px;
+    margin: 20px;
+    position: left;
+}
+/*
+@media screen and (max-width: 960px) {
+    .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+    display: none;
+    justify-content: flex-end;
+  }
+}
+
+*/
+
+
+
+/*
+flex: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+padding-left: 150px;
+*/
+
+/*
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+    
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+  */

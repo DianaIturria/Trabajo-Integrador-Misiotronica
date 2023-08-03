@@ -1,0 +1,56 @@
+.banner-container {
+    background: url('../assets/paraBanner/BannerHome.png') center center/cover no-repeat;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajusta el tamaño de la imagen para pantallas más pequeñas */
+    .banner-container {
+        background-size: cover;
+        height: auto;
+        object-fit: cover;
+        padding: 150px; /* Opcional: Agrega un poco de espacio alrededor de la imagen */
+    }
+}
+/*
+.banner-container h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-top: -100px;
+}
+
+.banner-container h2 {
+    margin-top: 40px;
+    color: #3A1CA5;
+    font-size: 30px;
+}
+
+.banner-container h3 {
+    margin-top: 1px;
+    color: #3A1CA5;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px rgba(169, 165, 165, 0.5);
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner-container h1 {
+        font-size: 55px;
+        margin-top: -100px;
+    }
+
+    .banner-container h2 {
+        font-size: 20;
+    }
+
+    .banner-container h3 {
+        font-size: 30;
+    }
+}
+*/

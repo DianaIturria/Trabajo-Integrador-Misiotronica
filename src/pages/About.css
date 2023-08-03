@@ -1,0 +1,39 @@
+.aboutUsContent {
+  max-width: 65%;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 18px;
+  margin-top: 5%;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  /* Ajusta el valor según el espacio deseado */
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  
+}
+.logo {
+  width: 100%; /* Tamaño deseado */
+  height: 300px; /* Para mantener la proporción de la imagen */
+  margin-bottom: 20px; /* Espacio inferior para separar la imagen del texto */
+object-fit: cover;
+}
+
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .aboutUsContent {
+    font-size: 16px;
+  }
+
+  .logo {
+    display: none;
+  }
+}
