@@ -4,7 +4,7 @@ const Announcement = () => {
     return (
         <div className="announcement-container">
             LOS PRECIOS SON EXCLUSIVOS PARA COMPRAS ONLINE
-            </div>
+        </div>
     )
 }
 

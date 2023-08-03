@@ -1,32 +1,61 @@
 .newsletter-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    background-color: #f8f8f8;
-  }
-  
-  .newsletter-container h2 {
-    font-size: 30px;
-    margin-bottom: px;
-  }
-  
-  .newsletter-container p {
-    font-size: 20px;
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  
-  .newsletter-input {
-    width: 300px;
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  /*
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+
+.newsletter-container h2 {
+  font-size: 30px;
+  margin-bottom: px;
+}
+
+.newsletter-container p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.newsletter-input {
+  width: 300px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.newsletter-btn {
+
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #3A1CA5;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+
+
+  display: block;
+  /* Por defecto los botones son elementos en línea. Con display: block, ocupan 
+  todo el ancho disponible. */
+  margin: 0 auto;
+  /* Margin: 0 auto centra horizontalmente el botón dentro de su contenedor */
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.newsletter-btn:hover {
+  background-color: #4C489E;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+
+
+/*
   .newsletter-btn {
     padding: 10px 20px;
     background-color: #3A1CA5;
@@ -41,27 +70,3 @@
     background-color: #4C489E;
   }
   */
-  .newsletter-btn {
-  
-    width: 140px;
-    height: 40px;
-    border: none;
-    background-color: #3A1CA5;
-    color: whitesmoke;
-    font-size: 15px;
-    cursor: pointer;
-    
-
-    display: block;
-    /* Por defecto, los botones son elementos en línea. Con display: block, ocuparán todo el ancho disponible. */
-    margin: 0 auto;
-    /* Margin: 0 auto centra horizontalmente el botón dentro de su contenedor. */
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
-
-.newsletter-btn:hover {
-    background-color: #4C489E;
-    cursor: pointer;
-    transition: 0.1s ease-in;
-}

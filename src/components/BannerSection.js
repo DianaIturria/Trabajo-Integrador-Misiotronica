@@ -1,18 +1,22 @@
 import React from 'react';
 import './BannerSection.css';
 
-/*import '../App.css';*/
-
 
 function BannerSection() {
     return (
-        <div className='banner-container'> 
-            
+        <div className='banner-container'>
+
         </div>
     );
 }
 
 export default BannerSection;
+
+
+
+
+
+
 
 
 /*<h1>MISIOTRÓNICA</h1>

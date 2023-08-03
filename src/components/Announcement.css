@@ -1,15 +1,15 @@
 .announcement-container {
-    height: 30px;
-    background-color: #3A1CA5;
-    color: #cec8c8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
+  height: 30px;
+  background-color: #3A1CA5;
+  color: #cec8c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
 }
 
 @media (max-width: 768px) {
-    .announcement-container {
-      display: none;
-    }
+  .announcement-container {
+    display: none;
+  }
 }

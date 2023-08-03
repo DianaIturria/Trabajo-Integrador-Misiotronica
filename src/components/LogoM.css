@@ -1,8 +1,9 @@
 .navbar-logo {
-    width: 90px;
-    margin: 20px;
-    position: left;
+  width: 90px;
+  margin: 20px;
+  position: left;
 }
+
 /*
 @media screen and (max-width: 960px) {
     .navbar-logo {

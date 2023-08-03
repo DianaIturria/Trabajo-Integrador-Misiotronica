@@ -1,14 +1,14 @@
 .titulos {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    font-size: 50px;
-    margin-top: 5%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  font-size: 50px;
+  margin-top: 5%;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    .titulos {
-      font-size: 30px;
-    }
+  .titulos {
+    font-size: 30px;
+  }
 }

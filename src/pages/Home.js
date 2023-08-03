@@ -6,9 +6,9 @@ import BannerSlider from '../components/BannerSlider';
 function Home() {
   return (
     <>
- <BannerSection />
- <BannerSlider />
- <Newsletter />
+      <BannerSection />
+      <BannerSlider />
+      <Newsletter />
     </>
   );
 }

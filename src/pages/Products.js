@@ -51,34 +51,34 @@ function Products() {
                             onChange={handleSearchInputChange}
                             placeholder='Buscar productos...'
                         />
-                            <div className='orderByOptions'>
-                                <label htmlFor='sortSelect'>Ordenar por:</label>
-                                <select id='sortSelect' value={sortType} onChange={handleSortChange}>
-                                    <option value='ascName'>Nombre ascendente</option>
-                                    <option value='descName'>Nombre descendente</option>
-                                    <option value='ascPrice'>Precio menor a mayor</option>
-                                    <option value='descPrice'>Precio mayor a menor</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div className='productsList'>
-                            {sortProducts(filterProducts).map((product, key) => {
-                                return (
-                                    <ProductItem
-                                        key={key}
-                                        image={product.image}
-                                        name={product.name}
-                                        price={product.price}
-                                    />
-                                );
-                            })}
+                        <div className='orderByOptions'>
+                            <label htmlFor='sortSelect'>Ordenar por:</label>
+                            <select id='sortSelect' value={sortType} onChange={handleSortChange}>
+                                <option value='ascName'>Nombre ascendente</option>
+                                <option value='descName'>Nombre descendente</option>
+                                <option value='ascPrice'>Precio menor a mayor</option>
+                                <option value='descPrice'>Precio mayor a menor</option>
+                            </select>
                         </div>
                     </div>
+                    <div className='productsList'>
+                        {sortProducts(filterProducts).map((product, key) => {
+                            return (
+                                <ProductItem
+                                    key={key}
+                                    image={product.image}
+                                    name={product.name}
+                                    price={product.price}
+                                />
+                            );
+                        })}
                     </div>
-                </>
-                );
+                </div>
+            </div>
+        </>
+    );
 }
 
-                export default Products;
+export default Products;
 
 

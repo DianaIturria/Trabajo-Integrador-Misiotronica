@@ -10,14 +10,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* Ajusta el tamaño de la imagen para pantallas más pequeñas */
+
+    /* Ajusta el tamaño de la imagen para pantallas más chicas */
     .banner-container {
         background-size: cover;
         height: auto;
         object-fit: cover;
-        padding: 150px; /* Opcional: Agrega un poco de espacio alrededor de la imagen */
+        padding: 150px;
     }
 }
+
 /*
 .banner-container h1 {
     color: #fff;

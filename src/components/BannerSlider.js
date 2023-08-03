@@ -10,7 +10,6 @@ const images = [
     Banner1,
     Banner2,
     Banner3
-    // Agrega aquí la lista de nombres de tus imágenes
 ];
 
 const BannerSlider = () => {
@@ -41,15 +40,15 @@ const BannerSlider = () => {
                 <div
                     className={index === currentImage ? 'slide active' : 'slide'}
                     key={index}>
-                        {index === currentImage && (
-                    <img
-                        src={image}
-                        alt="slide"
-                        className="image" />
-                        )}
+                    {index === currentImage && (
+                        <img
+                            src={image}
+                            alt="slide"
+                            className="image" />
+                    )}
                 </div>
             ))}
-            
+
             {/* Iconos para cambiar manualmente las imágenes */}
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />

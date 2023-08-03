@@ -5,7 +5,7 @@ const LogoM = () => {
     return (
         <div>
             <img src={Logo} className='navbar-logo' alt='logo' />
-          
+
         </div>
     );
 }

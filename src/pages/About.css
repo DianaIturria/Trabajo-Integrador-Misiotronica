@@ -17,17 +17,21 @@ h2 {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 25px;
-  
+
 }
+
 .logo {
-  width: 100%; /* Tamaño deseado */
-  height: 300px; /* Para mantener la proporción de la imagen */
-  margin-bottom: 20px; /* Espacio inferior para separar la imagen del texto */
-object-fit: cover;
+  width: 100%;
+  /* Tamaño deseado */
+  height: 300px;
+  /* Para mantener la proporción de la imagen */
+  margin-bottom: 20px;
+  /* Espacio inferior para separar la imagen del texto */
+  object-fit: cover;
 }
 
 
-/* Estilos para pantallas más pequeñas */
+/* Estilos para pantallas más chicas */
 @media screen and (max-width: 768px) {
   .aboutUsContent {
     font-size: 16px;
