@@ -4,6 +4,12 @@
   position: left;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-logo {
+    margin: 20px auto;
+  }
+}
+
 /*
 @media screen and (max-width: 960px) {
     .navbar-logo {
