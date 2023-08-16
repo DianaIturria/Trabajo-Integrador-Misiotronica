@@ -17,7 +17,6 @@ h2 {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 25px;
-
 }
 
 .logo {
@@ -35,6 +34,14 @@ h2 {
 @media screen and (max-width: 768px) {
   .aboutUsContent {
     font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   .logo {

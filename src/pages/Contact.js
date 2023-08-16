@@ -31,7 +31,7 @@ function Contact() {
       <div className='contact-container'>
         <div className='contact-text'>
           <p>Si tenés alguna consulta, sugerencia o simplemente querés conocer más sobre nuestros 
-            productos y servicios, no dudes en ponerte en contacto con nosotros</p>
+            productos y servicios, no dudes en ponerte en contacto con nosotros.</p>
           <p>Estamos aquí para ayudarte en todo lo que necesites.</p>
         </div>
         <div className='contact'>
@@ -71,6 +71,8 @@ function Contact() {
             <Marker position={[-27.362, -55.903]} icon={customIcon}>
               <Popup>
                 Misiotrónica - Calle Cualquiera 123, Misiones
+                Horario de 9 a 18 hs - 
+                Teléfono (376) 123-4567
               </Popup>
             </Marker>
           </MapContainer>

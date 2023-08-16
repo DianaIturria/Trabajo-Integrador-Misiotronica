@@ -23,3 +23,10 @@
     margin-bottom: 1%;
   }
 
+  @media screen and (max-width: 768px) {
+    h5 {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+

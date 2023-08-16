@@ -8,13 +8,16 @@
 .contact-text {
   max-width: 70%;
   height: 22vh;
-  font-size: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 5%;
+}
+
+.contact-text p {
+  font-size: 26px;
 }
 
 .contact {
@@ -28,7 +31,7 @@
 
 .contact .leftSide {
   height: 100%;
-  flex: 50%;
+  flex: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -46,8 +49,8 @@
 }
 
 .contact .rightSide h1 {
-  font-size: 50px;
-  margin-left: 30px;
+  font-size: 40px;
+  margin-left: 25px;
 }
 
 form {
@@ -74,6 +77,7 @@ form textarea {
   border-bottom: 1px solid #121619;
   color: black;
 }
+
 
 input::placeholder,
 textarea::placeholder {
@@ -122,19 +126,60 @@ form button:hover {
 }
 
 /* Estilos para pantallas más pequeñas */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-text p {
+    font-size: 14px;
+  }
+
   .contact .rightSide h1 {
-    font-size: 30px;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 0;
   }
 
   form {
     display: flex;
     flex-direction: column;
     width: auto;
-
+    height: 50%;
     padding: 30px;
   }
 
+  .contact .leftSide {
+   display: none;
+  }
+
+  .contact .rightSide {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+}
+
+
+
+
+/*
   .contact .leftSide {
     height: 100%;
     flex: 50%;
@@ -144,3 +189,4 @@ form button:hover {
     margin-left: 7%;
   }
 }
+*/

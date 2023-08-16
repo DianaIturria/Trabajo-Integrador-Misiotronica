@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
 
     /* Ajusta el tamaño de la imagen para pantallas más chicas */
     .banner-container {
@@ -19,6 +19,14 @@
         padding: 150px;
     }
 }
+
+@media screen and (max-width: 736px) { 
+    .banner-container {
+       /* background-size: contain;*/
+        display: none;
+    }
+}
+
 
 /*
 .banner-container h1 {
